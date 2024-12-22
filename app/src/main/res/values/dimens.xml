@@ -1,0 +1,7 @@
+<resources>
+    <!-- Margin vertikal -->
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Margin horizontal -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+</resources>

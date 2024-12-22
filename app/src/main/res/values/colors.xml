@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="backgroud">#B3E2A7</color>
+    <color name="blue1">#538392</color>
+    <color name="blue2">#6295A2</color>
+    <color name="green1">#80B9AD</color>
+    <color name="border">#888888</color>
+    <color name="background2">#E6F8D6</color>
+    <color name="meyfu">#2E7D32</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="red">#ffff0000</color>
+    <color name="concrete">#95A5A6</color>
+    <color name="turquoise">#1ABC9C</color>
+    <color name="green_sea">#16A085</color>
+    <color name="emerald">#2ECC71</color>
+    <color name="nephritis">#27AE60</color>
+    <color name="peter_river">#3498DB</color>
+    <color name="belize_hole">#2980B9</color>
+    <color name="amethyst">#9B59B6</color>
+    <color name="wisteria">#BE44AD</color>
+    <color name="wet_asphalt">#34495E</color>
+    <color name="midnight_blue">#2C3E50</color>
+    <color name="sun_flower">#F1C40F</color>
+    <color name="orange">#F39C12</color>
+    <color name="carrot">#E67E22</color>
+    <color name="pumpkin">#D35400</color>
+    <color name="alizarin">#E74C3C</color>
+    <color name="pomegranate">#C0392B</color>
+    <color name="clouds">#ECF0F1</color>
+    <color name="silver">#BDC3C7</color>
+    <color name="asbestos">#7F8C8D</color>
+</resources>
