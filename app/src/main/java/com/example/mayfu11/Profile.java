@@ -61,18 +61,21 @@ public class Profile extends Fragment {
         optionsWithPlaceholder[0] = "Select Gender";  // Placeholder for the spinner
         System.arraycopy(genderOptions, 0, optionsWithPlaceholder, 1, genderOptions.length);
 
-        ArrayAdapter<String> genderAdapter = new ArrayAdapter<>(requireContext(), android.R.layout.simple_spinner_item, optionsWithPlaceholder);
+        ArrayAdapter<String> genderAdapter = new ArrayAdapter<>(requireContext(), android.R.layout
+                .simple_spinner_item, optionsWithPlaceholder);
         genderAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         genderSpinner.setAdapter(genderAdapter);
 
         // Set up Spinner for activity level selection
         String[] activityLevelOptions = getResources().getStringArray(R.array.activityLevel);
-        ArrayAdapter<String> activityLevelAdapter = new ArrayAdapter<>(requireContext(), android.R.layout.simple_spinner_item, activityLevelOptions);
+        ArrayAdapter<String> activityLevelAdapter = new ArrayAdapter<>(requireContext(),
+                android.R.layout.simple_spinner_item, activityLevelOptions);
         activityLevelAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         activityLevelSpinner.setAdapter(activityLevelAdapter);
 
         // Load saved data from SharedPreferences
-        SharedPreferences sharedPreferences = requireContext().getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE);
+        SharedPreferences sharedPreferences = requireContext().getSharedPreferences
+                (PREFS_NAME, Context.MODE_PRIVATE);
 
         // Load saved weight, height, gender, activity level, and age from SharedPreferences
         String savedWeight = sharedPreferences.getString(KEY_WEIGHT, "");
@@ -175,14 +178,16 @@ public class Profile extends Fragment {
             }
 
             // Validate Age
-            if (TextUtils.isEmpty(ageInput) || Integer.parseInt(ageInput) < 1 || Integer.parseInt(ageInput) > 100) {
+            if (TextUtils.isEmpty(ageInput) || Integer.parseInt(ageInput) < 1 ||
+                    Integer.parseInt(ageInput) > 100) {
                 ageEditText.setError("Please enter a valid age");
                 isValid = false;
             }
 
             // Validate Activity Level
             if (selectedActivityLevelPosition == 0) {
-                Toast.makeText(requireContext(), "Please select an activity level", Toast.LENGTH_SHORT).show();
+                Toast.makeText(requireContext(), "Please select an activity level",
+                        Toast.LENGTH_SHORT).show();
                 isValid = false;
             }
 
