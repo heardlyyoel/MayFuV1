@@ -20,7 +20,7 @@ To install and test the Healthy Menu Platform (MeyFu) app during the development
 1. Download the APK File 📥
 Download the latest APK version directly from this repository:
 
-Download APK: MayFu.apk
+Download APK: MayFu.apk in repository or from this link Mediafire : https://www.mediafire.com/file/52lgqhz08b7re9u/MayFu.apk/file
 
 2. Allow Installation from Unknown Sources 🔓
 Since the app is not yet available on the Google Play Store, follow these steps to allow the installation of APK files:
