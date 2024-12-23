@@ -43,3 +43,4 @@ Please ensure that your contributions follow the coding guidelines and are well-
 For any inquiries or feedback, feel free to reach out to us at:
 
 Email: yoelsirait05@gmail.com
+      angelafelayni@gmail.com
