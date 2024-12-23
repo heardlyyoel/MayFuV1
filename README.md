@@ -1,6 +1,6 @@
-# __**Healthy Menu Platform (MeyFu)**__ 🍏💪
+# __**Healthy Menu Platform Personalized to Body’s Needs (MeyFu)**__ 🍏💪
 
-MeyFu is a mobile application designed to help users track and manage their daily health habits. It provides personalized recommendations for food and exercise based on your BMI and activity level data. Take control of your health and make better lifestyle choices with MeyFu! 🌱
+#_**MeyFu**_ is a mobile application designed to help users track and manage their daily health habits. It provides personalized recommendations for food and exercise based on your BMI and activity level data. Take control of your health and make better lifestyle choices with MeyFu! 🌱
 
 
 Setup Project 💻
